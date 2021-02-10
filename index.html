@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Completa CEP</title>
+  <link href="/tailwind.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+
+  <div class="flex flex-col justify-center items-center mt-10">
+    <h1 class="font-bold text-4xl mb-8">Endereço</h1>
+
+    <form class="flex flex-col w-5/6 md:w-1/2">
+
+      <div class="flex flex-col lg:flex-row justify-left">
+        <label for="cep" class="ml-2">CEP:</label>
+        <input type="text" id="cep" placeholder="XXXXX-XXX" class="border border-gray-600 outline-none rounded-md pl-1 mx-2 mb-3 lg:w-3/12">
+        
+        <label for="rua" class="ml-2">Rua:</label>
+        <input type="text" id="rua" class="border border-gray-600 outline-none rounded-md pl-1 mx-2 mb-3 lg:w-9/12">
+      </div>
+
+      <div class="flex flex-col lg:flex-row ">
+        <label for="numero" class="ml-2">Numero:</label>
+        <input type="text" id="numero" class="border border-gray-600 outline-none rounded-md pl-1 mx-2 mb-3 lg:w-3/12">        
+
+        <label for="bairro" class="ml-2">Bairro:</label>
+        <input type="text" id="bairro" class="border border-gray-600 outline-none rounded-md pl-1 mx-2 mb-3 lg:w-9/12">        
+      </div>
+
+      <div class="flex flex-col lg:flex-row">
+        <label for="cidade" class="ml-2">Cidade:</label>
+        <input type="text" id="cidade" class="border border-gray-600 outline-none rounded-md pl-1 mx-2 mb-3 lg:w-4/6">        
+
+        <label for="estado" class="ml-2">Estado:</label>
+        <input type="text" id="estado" class="border border-gray-600 outline-none rounded-md pl-1 mx-2 mb-3 lg:w-2/6">        
+      </div>
+
+    </form>
+
+
+    <button class="mt-4 bg-gray-300 p-3 rounded-full shadow-lg">
+      Completar endereço
+    </button>
+
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
