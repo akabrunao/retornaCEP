@@ -1,13 +1,22 @@
 {
   "name": "buscacep",
   "version": "1.0.0",
-  "description": "",
+  "description": "Essa é uma aplicação que, ao informar o cep, os campos de endereço são preenchidos automaticamente, semelhante ao que já ocorre em sites de grandes varejos",
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "run": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css"
+    "build": "postcss css/styles.css -o build/styles.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akabrunao/retornaCEP.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/akabrunao/retornaCEP/issues"
+  },
+  "homepage": "https://github.com/akabrunao/retornaCEP#readme"
 }
